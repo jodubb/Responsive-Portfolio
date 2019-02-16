@@ -1,0 +1,212 @@
+
+
+div.namestyle {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+}
+
+div.blueborder {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+ 
+}
+
+p.bodytext {
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 200%;
+      
+}
+
+
+ 
+
+h2.headertextName {
+   color: #4aaaa5;
+   font-family: 'Georgia', Times, "Times New Roman", serif;
+   border-bottom: #cccccc 3px solid;
+   padding: 20px;
+}
+
+
+body.bgpattern {
+    background-image: url("../images/positive.png");
+    margin: 0%;
+}
+
+div.topnav-right {
+    display: inline;
+    overflow: hidden;
+    margin:0 auto;
+   
+}
+
+a.menudecor {
+    padding: 10px;
+    color: #929292 ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+
+.menu {
+    text-decoration-color: #4aaaa5;
+    font-size: 100%; 
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    float:right;
+    margin-right: 50px;
+    padding: 24px; 
+}
+
+
+
+img.Wrap{
+    float: left;
+    margin: 15px;
+}
+
+footer.footsie {
+    background-color:#666666;
+    border-top: 8px solid #4aaaa5;
+    bottom:0%;
+    text-align: center;
+    padding-bottom: 25px;
+    width: 100%;
+}
+    /*This is for the Contact Page*/
+
+
+     
+label.titles {
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+input.boxes {
+    color:#777777;
+    width:100%;
+}
+
+    #submit {
+        color: #ffffff;
+        background-color: #4aaaa5;
+        padding: 10px 15px;
+        
+
+    }
+
+textarea.chathere {
+    color:#777777;
+    width:100%;
+
+}
+
+
+form.thisismyform {
+    margin:50px;
+}
+
+/*This is for my portfolio*/
+
+div.container {
+    
+    color:#ffffff;
+    z-index:1;
+    display:inline-block;
+    position: relative;
+    text-align:center;
+    margin: 20px;
+}
+div.hangman {
+    position: absolute;
+   text-align: center;
+    z-index:2;
+    background-color: #4aaaa5;
+    width:100%;
+    left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 70%;
+
+}
+
+.headertext {
+    color:#ffffff;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    background-color: #4aaaa5;
+    padding:25px; 
+    margin:0px;
+    float:left;
+}
+.MarginOver{
+    margin-left: 70px;
+}
+div.backbar {
+    background-color: #ffffff;
+    border-bottom: #cccccc 1px solid;
+    border-top: hidden;
+    
+    overflow: hidden;
+    
+}
+
+.bodyposition {
+    width: 960px;
+    background-color: #ffffff;
+    box-align: center;
+    margin-left: 70px;
+    padding: 25px;
+ 
+}
+
+.MiddleButton{
+    
+    border-left: 1px solid #929292;
+    border-right: 1px solid #929292;
+    
+}
+
+/* media queries */
+    @media only screen and (max-width: 980px) {
+
+
+    }
+  
+    @media only screen and (max-width: 768px) {
+        .bodyposition{
+            width:90%;
+           
+            margin-right: auto;
+            margin-left: auto;
+            padding-left:10px;
+            padding-right:10px;
+        }
+        .MarginOver{
+            margin-left:10px;
+        }
+
+    }
+
+    @media only screen and (max-width: 640px) {
+        .headertext {
+            float: none;
+            text-align: center;
+        }
+        .MarginOver{
+            margin-left:0px;
+        }
+        .menu {
+            text-align: center;
+            float: none;
+            width: 100%;
+            padding-left:0px;
+            padding-right:0px;
+            margin-left: 10px;
+      
+        }
+    }
+  
